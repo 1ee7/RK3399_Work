@@ -1,0 +1,140 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+AR	Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := -lpthread -lm -lrt -ldl$/;"	m
+NM	Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TARGET	Makefile	/^TARGET := oled_main$/;"	m
+TOPDIR	Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+AR	display/Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	display/Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	display/Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	display/Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	display/Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	display/Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	display/Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	display/Makefile	/^LDFLAGS := -lm -lrt -ldl$/;"	m
+NM	display/Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	display/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	display/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	display/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TOPDIR	display/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+Display_Char16	display/display.c	/^void Display_Char16(uint16_t x, uint16_t y, uint16_t fontcolor, uint16_t backcolor, char *s)$/;"	f
+Display_Circle	display/display.c	/^void Display_Circle(uint16_t _usX, uint16_t _usY, uint16_t _usRadius, uint16_t _usColor)$/;"	f
+Display_Line	display/display.c	/^void Display_Line(uint16_t _usX1, uint16_t  _usY1,uint16_t  _usX2, uint16_t  _usY2,uint16_t _usColor)$/;"	f
+Display_One_Hz	display/display.c	/^void Display_One_Hz(uint16_t x, uint16_t y, uint16_t fc, uint16_t bc, uint16_t s)$/;"	f
+Display_Rect	display/display.c	/^void Display_Rect(uint16_t _usX1, uint16_t _usY1,uint16_t _usX2, uint16_t _usY2,uint16_t _usX3,$/;"	f
+Display_Str	display/display.c	/^void Display_Str(unsigned char x,unsigned char y,char *str,unsigned char dir)$/;"	f
+Display_String_Hz	display/display.c	/^void Display_String_Hz(uint16_t x, uint16_t y, uint16_t fc, uint16_t bc)$/;"	f
+MAXBYTES_ROW	display/display.c	5;"	d	file:
+DISPLAY_H	display/display.h	6;"	d
+Max_Column	display/display.h	13;"	d
+Max_Row	display/display.h	14;"	d
+SIZE	display/display.h	12;"	d
+Hz_16	display/font.h	/^const unsigned char Hz_16[10][32] =$/;"	v
+__FONT_h	display/font.h	2;"	d
+asc16	display/font.h	/^const unsigned char  asc16[]={$/;"	v
+AR	gpio/Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	gpio/Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	gpio/Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	gpio/Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	gpio/Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	gpio/Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	gpio/Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	gpio/Makefile	/^LDFLAGS := -lm -lrt -ldl$/;"	m
+NM	gpio/Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	gpio/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	gpio/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	gpio/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TOPDIR	gpio/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+Gpio_Init_Spi	gpio/rk3399_gpio.c	/^int Gpio_Init_Spi()$/;"	f
+device_gpio	gpio/rk3399_gpio.c	/^static const char *device_gpio = "\/dev\/gpio_demo";$/;"	v	file:
+fd_gpio	gpio/rk3399_gpio.c	/^static int fd_gpio;$/;"	v	file:
+set_pin_value	gpio/rk3399_gpio.c	/^void set_pin_value(int pin,int value)$/;"	f
+RK3399_GPIO_H	gpio/rk3399_gpio.h	2;"	d
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+InitStrCh	main.c	/^char *const InitStrCh[]=$/;"	v
+main	main.c	/^int main()$/;"	f
+AR	oled/Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	oled/Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	oled/Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	oled/Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	oled/Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	oled/Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	oled/Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	oled/Makefile	/^LDFLAGS := -lm -lrt -ldl$/;"	m
+NM	oled/Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	oled/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	oled/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	oled/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TOPDIR	oled/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+OLED_CMD	oled/oled.c	6;"	d	file:
+OLED_DATA	oled/oled.c	7;"	d	file:
+OLED_CMD	oled/oled.h	6;"	d
+OLED_DATA	oled/oled.h	7;"	d
+OLED_H	oled/oled.h	2;"	d
+SPI_RST_0	oled/oled.h	10;"	d
+SPI_RST_1	oled/oled.h	9;"	d
+SPI_VPP_0	oled/oled.h	12;"	d
+SPI_VPP_1	oled/oled.h	11;"	d
+GPIO_PIN_RST	rk3399_global.h	15;"	d
+GPIO_PIN_VPP	rk3399_global.h	16;"	d
+LCDOUT	rk3399_global.h	9;"	d
+LCDREOUT	rk3399_global.h	10;"	d
+RK3399_GLOBAL_H	rk3399_global.h	2;"	d
+AR	spi/Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	spi/Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	spi/Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	spi/Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	spi/Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	spi/Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	spi/Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	spi/Makefile	/^LDFLAGS := -lm -lrt -ldl$/;"	m
+NM	spi/Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	spi/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	spi/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	spi/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TOPDIR	spi/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+ARRAY_SIZE	spi/rk3399_spi.c	3;"	d	file:
+SPI_Close	spi/rk3399_spi.c	/^int SPI_Close(void)$/;"	f
+SPI_DEBUG	spi/rk3399_spi.c	4;"	d	file:
+SPI_Init	spi/rk3399_spi.c	/^int SPI_Init(void)$/;"	f
+SPI_LookBackTest	spi/rk3399_spi.c	/^int SPI_LookBackTest(void)$/;"	f
+SPI_Read	spi/rk3399_spi.c	/^int SPI_Read(uint8_t *RxBuf, int len)$/;"	f
+SPI_Transfer	spi/rk3399_spi.c	/^int SPI_Transfer(const uint8_t *TxBuf, uint8_t *RxBuf, uint32_t len)$/;"	f
+SPI_Write	spi/rk3399_spi.c	/^int SPI_Write(uint8_t *TxBuf, int len)$/;"	f
+bits	spi/rk3399_spi.c	/^static uint8_t bits = 8; \/* ８ｂiｔｓ读写，MSB first。*\/$/;"	v	file:
+delay	spi/rk3399_spi.c	/^static uint16_t delay = 0;$/;"	v	file:
+device	spi/rk3399_spi.c	/^static const char *device = "\/dev\/spidev32766.0";$/;"	v	file:
+g_SPI_Fd	spi/rk3399_spi.c	/^static int g_SPI_Fd = 0;$/;"	v	file:
+mode	spi/rk3399_spi.c	/^static uint8_t mode = 3; \/* SPI通信使用全双工，设置CPOL＝0，CPHA＝0。 *\/$/;"	v	file:
+pabort	spi/rk3399_spi.c	/^static void pabort(const char *s)$/;"	f	file:
+speed	spi/rk3399_spi.c	/^static uint32_t speed = 12 * 1000 * 1000;\/* 设置12M传输速度 *\/$/;"	v	file:
+RK3399_SPI_H	spi/rk3399_spi.h	2;"	d
+AR	sys/Makefile	/^AR	= $(CROSS_COMPILE)ar$/;"	m
+AS	sys/Makefile	/^AS	= $(CROSS_COMPILE)as$/;"	m
+CC	sys/Makefile	/^CC  = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	sys/Makefile	/^CFLAGS := -Wall -O2 -g$/;"	m
+CPP	sys/Makefile	/^CPP = $(CROSS_COMPILE)g++ $/;"	m
+CROSS_COMPILE	sys/Makefile	/^CROSS_COMPILE = aarch64-rockchip-linux-gnu-$/;"	m
+LD	sys/Makefile	/^LD	= $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	sys/Makefile	/^LDFLAGS := -lm -lrt -ldl$/;"	m
+NM	sys/Makefile	/^NM	= $(CROSS_COMPILE)nm$/;"	m
+OBJCOPY	sys/Makefile	/^OBJCOPY		= $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	sys/Makefile	/^OBJDUMP		= $(CROSS_COMPILE)objdump$/;"	m
+STRIP	sys/Makefile	/^STRIP		= $(CROSS_COMPILE)strip$/;"	m
+TOPDIR	sys/Makefile	/^TOPDIR := $(shell pwd)$/;"	m
+delay_ms	sys/sys.c	/^void delay_ms(unsigned int ms)$/;"	f
+delay_us	sys/sys.c	/^void delay_us(unsigned int us)$/;"	f
+SYS_H	sys/sys.h	2;"	d

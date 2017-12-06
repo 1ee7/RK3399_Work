@@ -1,0 +1,13 @@
+1. kernel 编译 & 文件系统的生成
+  按照官方的文件编译内核，文件系统基于ubuntu最小系统的基础上定制，参照论坛的帖子
+
+2. 交叉编译环境的搭建
+ 参照rk3399_sdk
+
+3. 驱动的编写
+  1）修改dts文件 linux-kernel/arch/arm64/boot/dts/rockchip
+  2）修改/新增驱动文件 linux-kernel/drivers下 ，并修改Makefile 、Kconfig文件
+  3）编译后，烧写kernel.img 跟 resource.img文件
+
+4. 应用程序工程
+  采用spi驱动oled屏幕
