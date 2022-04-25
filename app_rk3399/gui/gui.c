@@ -28,7 +28,7 @@ char *const Page1Str[]=
 };
 char *const Page2Str[]=
 {
-  "烟台北方星空科技有限公司",
+  "******科技有限公司",
   "  测试菜单   ",
   "           ",
   "           ",
