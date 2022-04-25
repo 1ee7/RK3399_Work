@@ -15,7 +15,7 @@ char *const PageState[] =
 char *const Page1Str[]=
 {
 
-  "烟台北方星空科技有限公司",
+  "*******科技有限公司",
   "  测试菜单  ",
   "           ",
   "           ",
@@ -41,7 +41,7 @@ char *const Page2Str[]=
 };
 char *const Page3Str[]=
 {
-  "烟台北方星空科技有限公司",
+  "*******科技有限公司",
   "  测试菜单   ",
   "           ",
   "           ",
